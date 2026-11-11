@@ -1,0 +1,32 @@
+# PDF RAG Assistant - Backend Dependencies
+# Phase 1: PDF processing, FastAPI, session management
+# Phase 2: Embeddings, Supabase/pgvector, vector search
+
+# Core framework
+fastapi>=0.115.2
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+gradio>=4.0.0
+
+# PDF processing
+pymupdf==1.24.12
+
+# Configuration
+python-dotenv==1.0.1
+
+# Security - signed tokens
+itsdangerous==2.2.0
+
+# Phase 2: Vector database & embeddings
+supabase==2.16.0
+sentence-transformers==3.3.0
+torch>=2.8.0
+spaces
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.27.2
+
+# Type hints
+typing-extensions==4.12.2

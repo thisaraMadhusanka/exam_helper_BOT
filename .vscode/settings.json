@@ -1,0 +1,6 @@
+{
+    "python.terminal.useEnvFile": true,
+    "chat.tools.terminal.autoApprove": {
+        "npm run build": true
+    }
+}

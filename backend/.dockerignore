@@ -1,0 +1,48 @@
+# PDF RAG Assistant - Backend .dockerignore
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+tests/
+*.pdf
+!sample-public.pdf
+
+# Temporary files
+*.tmp
+uploads/
+.cache/
+
+# Documentation
+*.md
+!README.md
